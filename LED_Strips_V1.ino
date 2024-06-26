@@ -27,17 +27,17 @@
 
 /************ WIFI and MQTT Information (CHANGE THESE FOR YOUR SETUP) ******************/
 const char* ssid = "IoT-Demo"; //type your WIFI information inside the quotes
-const char* password = "Demo-123";
+const char* password = "pwd";
 const char* mqtt_server = "10.10.3.200";
 const char* mqtt_username = "iot";
-const char* mqtt_password = "Demo-123";
+const char* mqtt_password = "pwd";
 const int mqtt_port = 1883;
 
 
 
 /**************************** FOR OTA **************************************************/
 #define SENSORNAME "CUDAled" //change this to whatever you want to call your device
-#define OTApassword "Demo-123" //the password you will need to enter to upload remotely via the ArduinoIDE
+#define OTApassword "pwd" //the password you will need to enter to upload remotely via the ArduinoIDE
 int OTAport = 8266;
 
 
